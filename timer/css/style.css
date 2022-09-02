@@ -1,0 +1,90 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #1d1b1b;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container .timer {
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  margin: 0px;
+  border: 5px solid aqua;
+  border-bottom: 5px solid yellow;
+  border-left: 5px solid lime;
+  border-right: 5px solid crimson;
+  -webkit-box-shadow: 0 0 10px #fff, 0 0 40px crimson, 0 0 80px #3636c0;
+          box-shadow: 0 0 10px #fff, 0 0 40px crimson, 0 0 80px #3636c0;
+}
+
+.container .timer p {
+  font-size: 6.5rem;
+  color: #fff;
+}
+
+.container .timer p span {
+  font-size: 6.5rem;
+  color: aqua;
+}
+
+.container button {
+  width: 6rem;
+  height: 3rem;
+  margin: 1rem;
+  border-radius: 1.5rem;
+  background-color: aqua;
+  border: none;
+  cursor: pointer;
+}
+
+.container .stop-btn {
+  background-color: yellow;
+}
+
+.container .stop-btn:hover {
+  background-color: #c2c21b;
+}
+
+.container .start-btn {
+  background-color: lime;
+}
+
+.container .start-btn:hover {
+  background-color: limegreen;
+}
+
+.container .reset-btn {
+  background-color: crimson;
+}
+
+.container .reset-btn:hover {
+  background-color: #a21919;
+}
+/*# sourceMappingURL=style.css.map */
